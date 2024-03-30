@@ -10,8 +10,31 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+      header{
+        display: flex;
+        align-items: center;
+        margin: 20px 150px;
+      } 
+      h1{
+        margin-right: 10px;
+      }
+      ul{
+        display: flex;
+        list-style-type: none;
+      }
+      li{
+        margin-right: 20px;
+      }
+      #cart{
+        margin-left: auto;
+      }
+      #avater{
+        margin-left: 40px;
+      }
+      li a{
+        text-decoration: none;
+      }
+
   </style>
 </head>
 <body>
@@ -25,8 +48,8 @@
       <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
-    <img src="./images/icon-cart.svg" alt="a shopping cart icon">
-    <img src="./images/image-avatar.png" alt="an image of an avatar" height="40px" width="40px">
+    <img src="./images/icon-cart.svg" alt="a shopping cart icon" id="cart">
+    <img src="./images/image-avatar.png" alt="an image of an avatar" height="40px" width="40px" id="avater">
   </header>
 
   Sneaker Company
