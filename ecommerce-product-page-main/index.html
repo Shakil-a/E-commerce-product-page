@@ -10,6 +10,9 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body{
+      width: 1440px;
+    }
       header{
         display: flex;
         align-items: center;
@@ -34,6 +37,13 @@
       li a{
         text-decoration: none;
       }
+      main{
+        display: flex;
+        margin: 100px 200px;
+      }
+      #main-content{
+        margin-left: 100px;
+      }
 
   </style>
 </head>
@@ -52,23 +62,34 @@
     <img src="./images/image-avatar.png" alt="an image of an avatar" height="40px" width="40px" id="avater">
   </header>
 
-  Sneaker Company
+  <main>
+    <div>
+      <img src="./images/image-product-1.jpg" alt="an image of two shoes" height="350px" width="350px">
+    </div>
+  <div id="main-content">
+  <h2>Sneaker Company</h2>
 
-  Fall Limited Edition Sneakers
+  <h3>Fall Limited Edition <br> Sneakers</h3>
 
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
-
+  <p>These low-profile sneakers are your perfect casual wear <br> companion. Featuring a 
+  durable rubber outer sole, they’ll <br> withstand everything the weather can offer.</p>
+  
+  <div>
   $125.00
   50%
   $250.00
+  </div>
 
+  <div>
   0
-  Add to cart
+  <button>Add to cart</button>
+  </div>
+  </div>
+  </main>
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
